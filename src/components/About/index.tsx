@@ -33,10 +33,10 @@ const About = () => {
     },
   ];
   return (
-    <section className="container max-w-[1280px] mx-auto grid grid-cols-1 gap-y-12 lg:grid-cols-2 place-items-center py-[3rem] lg:h-[80vh]">
+    <section className="container max-w-[1280px] mx-auto grid grid-cols-1 gap-y-12 lg:grid-cols-2 place-items-center py-[3rem] lg:h-[80vh] p-6">
       {/* Cards */}
       <div
-        className="grid gap-8 p-6 justify-center order-last lg:order-none"
+        className="grid gap-8 justify-center order-last lg:order-none"
         style={{ gridTemplateColumns: "repeat(2, minmax(100px, 170px))" }}
       >
         {items.map((item, index) => {
@@ -55,7 +55,7 @@ const About = () => {
       </div>
 
       {/* Text */}
-      <div className="grid gap-y-6 pt-0 p-6">
+      <div className="grid gap-y-6 pt-0">
         <p className="text-sm text-primary">Who we are?</p>
 
         <div className="grid gap-y-4">

@@ -9,9 +9,7 @@ const Solutions = () => {
     <section className="relative grid gap-y-12 container max-w-[1048px] mx-auto py-[3rem] px-6">
       {/* Top */}
       <div className="grid gap-y-2 place-items-center">
-        <p className="text-sm text-primary">
-          Solutions to Sustainable Mobility
-        </p>
+        <p className="text-sm text-primary">Wonder what we do?</p>
         <h2 className="text-4xl font-bold text-center">Our Solutions</h2>
         {/* Text */}
         <p className="text-textColor dark:text-[#a5a5ac] text-center lg:max-w-[50%]">

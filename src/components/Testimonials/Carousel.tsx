@@ -46,7 +46,7 @@ const MyCarousel = () => {
               <q>{testimonial.experience}</q>
             </h3>
             <p className="text-base text-textColor dark:text-[#a5a5ac]">
-              {testimonial.name}
+              ~ {testimonial.name}
             </p>
           </div>
         ))}
