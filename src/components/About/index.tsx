@@ -33,7 +33,10 @@ const About = () => {
     },
   ];
   return (
-    <section className="container max-w-[1280px] mx-auto grid grid-cols-1 gap-y-12 lg:grid-cols-2 place-items-center py-[3rem] lg:h-[80vh] p-6">
+    <section
+      className="container max-w-[1280px] mx-auto grid grid-cols-1 gap-y-12 lg:grid-cols-2 place-items-center py-[3rem] lg:h-[80vh] p-6"
+      id="about"
+    >
       {/* Cards */}
       <div
         className="grid gap-8 justify-center order-last lg:order-none"

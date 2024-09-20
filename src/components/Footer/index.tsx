@@ -22,7 +22,7 @@ const SocialLink = ({
 
 const Footer = () => {
   return (
-    <footer className="py-[3.5rem] bg-secondary dark:bg-background mt-[10rem]">
+    <footer className="py-[12] bg-secondary dark:bg-background lg:mt-40 lg:py-14">
       <div className="container max-w-[1280px] mx-auto grid gap-y-8">
         {/*====== Item 1 ======*/}
         <div className="container rounded-[3.5rem] grid gap-y-8 grid-cols-1 lg:grid-cols-2 p-6">

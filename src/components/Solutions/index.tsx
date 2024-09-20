@@ -6,7 +6,10 @@ import BusinessCharging from "@/assets/animations/business-charging.json";
 
 const Solutions = () => {
   return (
-    <section className="relative grid gap-y-12 container max-w-[1048px] mx-auto py-[3rem] px-6">
+    <section
+      className="relative grid gap-y-12 container max-w-[1048px] mx-auto py-[3rem] px-6"
+      id="solutions"
+    >
       {/* Top */}
       <div className="grid gap-y-2 place-items-center">
         <p className="text-sm text-primary">Wonder what we do?</p>

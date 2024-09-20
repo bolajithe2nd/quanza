@@ -40,11 +40,11 @@ const Header = () => {
           >
             {/* Menu List */}
             <ul className="grid md:flex md:items-center md:gap-x-8 px-1">
-              <NavLink href="#">Home</NavLink>
-              <NavLink href="#">About</NavLink>
-              <NavLink href="#">Solutions</NavLink>
-              <NavLink href="#">Testimonials</NavLink>
-              <NavLink href="#">Contact</NavLink>
+              <NavLink href="#home">Home</NavLink>
+              <NavLink href="#about">About</NavLink>
+              <NavLink href="#solutions">Solutions</NavLink>
+              <NavLink href="#testimonials">Testimonials</NavLink>
+              <NavLink href="#contact">Contact</NavLink>
               <ModeToggle />
             </ul>
           </nav>

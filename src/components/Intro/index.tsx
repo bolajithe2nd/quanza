@@ -8,7 +8,7 @@ import Suzuki from "./Logos/Suzuki";
 
 const Intro = () => {
   return (
-    <section className="relative container max-w-[1280px] mx-auto">
+    <section className="relative container max-w-[1280px] mx-auto" id="home">
       <div className="grid items-center place-items-center py-[3rem] pt-[5rem] lg:h-[100vh] grid-cols-1 lg:grid-cols-2">
         <div className="grid gap-y-6 p-6">
           {/* Text */}

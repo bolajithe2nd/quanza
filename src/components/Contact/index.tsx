@@ -5,7 +5,10 @@ import { Button } from "@/components/ui/button";
 
 const Contact = () => {
   return (
-    <section className="p-6 container max-w-[1280px] mx-auto grid grid-cols-1 gap-6 lg:grid-cols-[30rem_30rem] items-center place-content-center py-[3rem] lg:h-[60vh]">
+    <section
+      className="p-6 container max-w-[1280px] mx-auto grid grid-cols-1 gap-6 lg:grid-cols-[30rem_30rem] items-center place-content-center py-[3rem] lg:h-[60vh]"
+      id="contact"
+    >
       {/* Text */}
       <div className="grid gap-y-6">
         <p className="text-sm text-primary">Feel like reaching us?</p>
@@ -26,7 +29,7 @@ const Contact = () => {
       {/* Form */}
       <form
         action="#"
-        className="w-full h-fit bg-background grid gap-y-6 place-items-center p-8 rounded-2xl border-[1.7px] border-secondary shadow-xl"
+        className="w-full h-fit bg-background grid gap-y-6 place-items-center p-6 lg:p-8 rounded-2xl border-[1.7px] border-secondary shadow-xl"
       >
         <div className="grid w-full items-center gap-1.5">
           <Label htmlFor="name">Full Name</Label>
