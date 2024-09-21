@@ -20,15 +20,17 @@ const Header = () => {
               alt="Logo"
             />
 
-            {/* Navigation toggle */}
-            <button
-              className="md:hidden"
-              onClick={toggleMenu}
-              aria-expanded={showMenu}
-              aria-controls="mobile-nav"
-            >
-              <Menu className="w-6 h-6" />
-            </button>
+            <div className="flex items-center gap-x-4 md:hidden">
+              <ModeToggle />
+              {/* Navigation toggle */}
+              <button
+                onClick={toggleMenu}
+                aria-expanded={showMenu}
+                aria-controls="mobile-nav"
+              >
+                <Menu className="w-6 h-6" />
+              </button>
+            </div>
           </div>
 
           {/* Navigation */}
@@ -45,7 +47,9 @@ const Header = () => {
               <NavLink href="#solutions">Solutions</NavLink>
               <NavLink href="#testimonials">Testimonials</NavLink>
               <NavLink href="#contact">Contact</NavLink>
-              <ModeToggle />
+              <div className="hidden md:block">
+                <ModeToggle />
+              </div>
             </ul>
           </nav>
         </div>
