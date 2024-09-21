@@ -2,7 +2,7 @@ const Hyundai = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="w-20 h-fit fill-[#686764]"
+      className="w-16 lg:w-20 h-fit fill-[#686764]"
       viewBox="0 0 192.756 192.756"
       // viewBox="20 20 150 150"
     >

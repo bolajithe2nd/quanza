@@ -3,7 +3,7 @@ const Nissan = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 192.756 192.756"
-      className="w-14 fill-[#686764]"
+      className="w-12 lg:w-14 fill-[#686764]"
     >
       <path
         fill-rule="evenodd"

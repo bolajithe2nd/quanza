@@ -4,7 +4,7 @@ const Tesla = () => {
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 278.7 36.3"
-      className="w-20"
+      className="w-16 lg:w-20"
     >
       <g id="TESLA">
         <path

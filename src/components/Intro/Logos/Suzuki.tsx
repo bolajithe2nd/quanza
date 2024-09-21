@@ -3,7 +3,7 @@ const Suzuki = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 192.756 192.756"
-      className="w-24 h-24 fill-[#686764]"
+      className="w-20 lg:w-24 fill-[#686764]"
     >
       <g fill-rule="evenodd" clip-rule="evenodd">
         <path className="fill-transparent" d="M0 0h192.756v192.756H0V0z" />
